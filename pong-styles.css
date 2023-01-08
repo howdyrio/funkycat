@@ -10,6 +10,7 @@ body {
 }
 
 #game {
+  background-image: url("http://www.davidbardschwarz.com/images/forest.png");
   margin: 10px;
   border: 5px solid black;
   left: 0;
