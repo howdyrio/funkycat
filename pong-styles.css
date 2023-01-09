@@ -47,7 +47,7 @@ body {
 }
 
 #errors {
-  color: red;
+  color: magenta;
   font-weight: 700;
 }
 
@@ -70,7 +70,7 @@ body {
 .paddle {
   top: 0;
   width: 10px;
-  position: static;
+  position: absolute;
 }
 
 .ball {
@@ -78,13 +78,13 @@ body {
   height: 20px;
   background-color: mediumslateblue;
   border-radius: 10px;
-  position: static;
+  position: absolute;
   left: 50px;
   top: 50px;
 }
 
 .score {
-  position: static;
+  position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
 }
