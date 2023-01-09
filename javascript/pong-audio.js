@@ -43,10 +43,10 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("coolbell.mp3"); //load sound
+export var wallSound = new soundFile("wallsound.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("ballbell.mp3");
+export var paddleSound = new soundFile("wallsound.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("scorepoint.mp3");
