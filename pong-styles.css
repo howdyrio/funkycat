@@ -14,7 +14,7 @@ body {
   margin: 10px;
   border: 5px solid black;
   left: 0;
-  position: static;
+  position: absolute;
   background-size: cover;
 }
 
@@ -32,7 +32,7 @@ body {
 #instructions {
   display: none;
   bottom: 0;
-  position: static;
+  position: absolute;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,7 +40,7 @@ body {
 #errors-debug {
   display: none;
   bottom: 0;
-  position: static;
+  position: absolute;
   margin: 10px;
   padding-left: 400px;
   font-family: Arial, Helvetica, sans-serif;
@@ -76,7 +76,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: mediumslateblue;
+  background-color: aqua;
   border-radius: 10px;
   position: absolute;
   left: 50px;
