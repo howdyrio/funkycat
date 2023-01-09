@@ -55,7 +55,8 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("vktrs.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -17; //turn down volume
+ambientSound.player.volume.value = -17;//turn down volume
+ambientSound.player.playbackspeed = 1.0
 
 export var adventureMusic = new soundFile("vktrs.mp3");
 soundArray.push(adventureMusic);
