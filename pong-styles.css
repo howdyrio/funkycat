@@ -12,14 +12,14 @@ body {
 #game {
   background-image: url("https://i.pinimg.com/564x/b6/83/95/b6839597af89f3d4c4c85eaaa501b416.jpg");
   margin: 10px;
-  border: 5px solid pink;
+  border: 5px solid black;
   left: 0;
-  position: absolute;
+  position: static;
   background-size: cover;
 }
 
 #left-paddle {
-  background-color: pink;
+  background-color: magenta;
   left: 10px;
   height: 25px;
 }
@@ -32,7 +32,7 @@ body {
 #instructions {
   display: none;
   bottom: 0;
-  position: absolute;
+  position: static;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,7 +40,7 @@ body {
 #errors-debug {
   display: none;
   bottom: 0;
-  position: absolute;
+  position: static;
   margin: 10px;
   padding-left: 400px;
   font-family: Arial, Helvetica, sans-serif;
@@ -70,21 +70,21 @@ body {
 .paddle {
   top: 0;
   width: 10px;
-  position: absolute;
+  position: static;
 }
 
 .ball {
   width: 20px;
   height: 20px;
-  background-color: white;
+  background-color: mediumslateblue;
   border-radius: 10px;
-  position: absolute;
+  position: static;
   left: 50px;
   top: 50px;
 }
 
 .score {
-  position: absolute;
+  position: static;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
 }
