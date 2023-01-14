@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("scorepoint.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("vktrs.mp3");
+export var ambientSound = new soundFile("rio.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -17;//turn down volume
